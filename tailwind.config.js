@@ -6,7 +6,20 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      metrophobic: ["Metrophobic", "sans-serif"],
+      Metropolis: ["Metropolis", "sans-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
+      Catamaran: ["Catamaran", "sans-serif"],
+    },
+    extend: {
+      animation: {
+        pulse: 'pulse 6s infinite',
+      },
+      transitionProperty: {
+          'height': 'height'
+      }
+    },
   },
   plugins: [],
 }

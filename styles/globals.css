@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto:wght@500&family=Yeseva+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metropolis-2?styles=21187,21181,21183,21191');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;800&family=Montserrat:ital,wght@1,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+@keyframes pulse {
+0% {
+  transform: scale(0.6);
+  box-shadow: 0 0 200px 0px white;
+}
+
+70% {
+  transform: scale(0.8);
+  box-shadow: 0px 0px 150px 57px #878787 ;
+}
+
+100% {
+  transform: scale(0.6);
+  box-shadow: 0px 0px 0px 0px rgba(255, 224, 224, 0);
+}
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url('../fonts/Metropolis-RegularItalic.ttf'), format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#Metropolis{
+  font-family: 'Metropolis' , Italic;
+  font-weight: normal;
+}
