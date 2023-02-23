@@ -14,7 +14,7 @@ function Header() {
 
     <header className='flex items-center mt-10 justify-center'>
 
-<nav className="shrink-0 items-center justify-center xl:inline-flex lg:inline-flex md:inline-flex hidden">
+<nav className="shrink-0 items-center justify-center inline-flex">
         
 
             <div className="relative">
@@ -75,7 +75,7 @@ function Header() {
         </ul>
 </nav>
     
-<div className='absolute  top-[443px] h-[460px] xl:w-[1200px] lg:w-[900px] md:w-[700px] xl:inline-flex lg:inline-flex md:inline-flex hidden'>
+<div className='absolute  top-[443px] h-[460px] w-[330px] 2xl:w-[1200px] xl:w-[1200px] lg:w-[900px] md:w-[700px] sm:w-[500px] inline-flex'>
 
 <Image src='/Rectangle 10.png' fill='true' alt='Banner' className='object-cover' />
 

@@ -6,7 +6,7 @@ import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className='2xl:bg-white xl:bg-white lg:bg-white md:bg-white bg-[#171717] h-screen'>
+    <div className='2xl:bg-white xl:bg-white lg:bg-white md:bg-white'>
 
       <Head>
         <title>Saida Website</title>
