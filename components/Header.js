@@ -75,10 +75,15 @@ function Header() {
         </ul>
 </nav>
     
-<div className='absolute  top-[443px] h-[460px] w-[330px] 2xl:w-[1200px] xl:w-[1200px] lg:w-[900px] md:w-[700px] sm:w-[500px] inline-flex'>
+<div className='absolute hidden top-[443px] h-[470px] w-[330px] 2xl:h-[470px] xl:h-[470px] lg:h-[450px] md:h-[400px] sm:h-[300px] 2xl:inline-flex xl:inline-flex lg:inline-flex md:inline-flex sm:inline-flex 2xl:w-[1200px] xl:w-[1200px] lg:w-[900px] md:w-[700px] sm:w-[550px]'>
 
 <Image src='/Rectangle 10.png' fill='true' alt='Banner' className='object-cover' />
 
+</div>
+
+
+<div className='absolute top-[443px] w-[320px] h-[350px] 2xl:hidden xl:hidden lg:hidden sm:hidden'>
+    <Image src='/Rectangle 12.png' alt='Banner' fill={true} className='object-cover'/>
 </div>
 
     </header>
