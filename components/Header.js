@@ -63,7 +63,7 @@ function Header() {
         <ul className='ml-2 flex space-x-4 flex-shrink-0 font-Catamaran text-[19px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
-          What is Couching
+          What is Coaching
         </Link>
             </li>
 
