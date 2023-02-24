@@ -46,16 +46,10 @@ const MenuItems = ({ active, showMenu }) => {
                   {activeAbout && <div className="relative z-10 origin-top-right transition duration-500 ease-in-out"> 
                       <ul className="flex flex-col mt-2 space-y-2 transition duration-500 ease-out">
                           <li><Link
-                              href="/"
+                              href="/aboutExperience"
                               className="flex flex-shrink-0 flex-row text-lg text-white font-thin"
                           >
-                              Education
-                          </Link></li>
-                          <li><Link
-                              href="/aboutExperience"
-                              className="flex flex-shrink-0 text-lg text-white font-thin"
-                          >
-                              Experience
+                              Education & Experience
                           </Link></li>
                           <li><Link
                               href="/"
@@ -135,19 +129,14 @@ function AboutExperienceHeader() {
                 </button>
 
                 {activeAbout && <div className="absolute z-10 origin-top-right">
-                    <div className="flex space-x-8 mt-2">
-                        <Link
-                            href="#"
-                            className="flex flex-shrink-0 flex-row text-sm text-gray-500"
-                        >
-                            Education
-                        </Link>
+                    <div className="flex space-x-6 mt-2">
                         <Link
                             href="/aboutExperience"
-                            className="flex flex-shrink-0 text-sm text-gray-500"
+                            className="flex flex-shrink-0 flex-row text-sm text-gray-500"
                         >
-                            Experience
+                            Education & Experience
                         </Link>
+                      
                         <Link
                             href="#"
                             className="flex flex-shrink-0 text-sm text-gray-500"
@@ -162,7 +151,7 @@ function AboutExperienceHeader() {
         <ul className='ml-2 flex space-x-4 flex-shrink-0 font-Catamaran text-[20px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
-          What is Couching
+          What is Coaching
         </Link>
             </li>
 

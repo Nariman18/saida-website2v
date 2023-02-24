@@ -37,19 +37,14 @@ function HeaderContact() {
                 </button>
 
                 {activeAbout && <div className="absolute z-10 origin-top-right">
-                    <div className="flex space-x-8 mt-2">
-                        <Link
-                            href="#"
-                            className="flex flex-shrink-0 flex-row text-sm text-gray-500"
-                        >
-                            Education
-                        </Link>
+                    <div className="flex space-x-6 mt-2">
                         <Link
                             href="/aboutExperience"
-                            className="flex flex-shrink-0 text-sm text-gray-500"
+                            className="flex flex-shrink-0 flex-row text-sm text-gray-500"
                         >
-                            Experience
+                            Education & Experience
                         </Link>
+                      
                         <Link
                             href="#"
                             className="flex flex-shrink-0 text-sm text-gray-500"
@@ -64,7 +59,7 @@ function HeaderContact() {
         <ul className='ml-2 flex space-x-4 flex-shrink-0 font-Catamaran text-[19px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
-          What is Couching
+          What is Coaching
         </Link>
             </li>
 
