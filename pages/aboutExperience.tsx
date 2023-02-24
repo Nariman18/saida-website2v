@@ -28,7 +28,7 @@ function aboutExperience() {
 
     <main className='mt-5 flex flex-col items-center'>
     
-   <div className='relative 2xl:h-[620px] 2xl:w-[1114px] xl:h-[500px] xl:w-[900px] lg:h-[460px] lg:w-[800px] md:w-[700px] md:h-[420px] sm:h-[380px] sm:w-[700px] 2xl:flex xl:flex lg:flex md:flex sm:flex hidden'>
+   <div className='relative 2xl:h-[620px] 2xl:w-[1114px] xl:h-[500px] xl:w-[900px] lg:h-[460px] lg:w-[800px] md:w-[700px] md:h-[420px] sm:h-[380px] sm:w-[650px] 2xl:flex xl:flex lg:flex md:flex sm:flex hidden'>
     <Image src='/Rectangle 9.png' alt='Banner' fill={true} className='object-contain'/>
    </div>
 
@@ -42,7 +42,7 @@ function aboutExperience() {
 
     <ExperienceContact />
 
-    <button onClick={scrollToTop} className='text-[#9E9E9E] mb-10 font-Catamaran font-[400] text-[17px]'>Go back to start</button>
+    <button onClick={scrollToTop} className='text-[#9E9E9E] mb-10 font-Catamaran font-[400] text-[17px] mt-10'>Go back to start</button>
     </main>
     
 
