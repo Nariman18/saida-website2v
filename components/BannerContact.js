@@ -46,16 +46,10 @@ const MenuItems = ({ active, showMenu }) => {
                 {activeAbout && <div className="relative z-10 origin-top-right transition duration-500 ease-in-out"> 
                     <ul className="flex flex-col mt-2 space-y-2 transition duration-500 ease-out">
                         <li><Link
-                            href="/"
+                            href="/aboutExperience"
                             className="flex flex-shrink-0 flex-row text-lg text-white font-thin"
                         >
-                            Education
-                        </Link></li>
-                        <li><Link
-                            href="/aboutExperience"
-                            className="flex flex-shrink-0 text-lg text-white font-thin"
-                        >
-                            Experience
+                            Education & Experience
                         </Link></li>
                         <li><Link
                             href="/"
