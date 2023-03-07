@@ -52,7 +52,7 @@ const MenuItems = ({ active, showMenu }) => {
                               Education & Experience
                           </Link></li>
                           <li><Link
-                              href="/"
+                              href="/philosophy"
                               className="flex flex-shrink-0 text-lg text-white font-thin"
                           >
                               Philosophy
@@ -138,7 +138,7 @@ function AboutExperienceHeader() {
                         </Link>
                       
                         <Link
-                            href="#"
+                            href="/philosophy"
                             className="flex flex-shrink-0 text-sm text-gray-500"
                         >
                             Philosophy

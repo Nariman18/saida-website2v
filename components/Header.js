@@ -45,7 +45,7 @@ function Header() {
                         </Link>
                 
                         <Link
-                            href="#"
+                            href="/philosophy"
                             className="flex flex-shrink-0 text-sm text-gray-500"
                         >
                             Philosophy
