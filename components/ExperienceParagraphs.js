@@ -8,14 +8,14 @@ function ExperienceParagraphs() {
 Executive and Life Coach and a Medical Doctor.
 She graduated from Azerbaijan Medical University with an
 honorary diploma, specializing in Ophthalmology.</p>
-            <p className='mt-10 text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva continued studying and working in New
+            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva continued studying and working in New
 York, USA. Studying medicine and working in the US
 made her realize that the existing approach towards health
 and wellbeing is not comprehensive enough. This
 prompted her to take a quest and find a way to expand her
 knowledge and expertise beyond classical medical
 training.</p>
-            <h4 className='mt-10 text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Subsequently, Dr. Abdullayeva studied and graduated
+            <h4 className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Subsequently, Dr. Abdullayeva studied and graduated
 from an ICF (International Coaching Federation)
 accredited coaching certification program in New York
 with excellent results as an Executive and Life Coach.</h4>
@@ -38,7 +38,7 @@ management.
 Dr. Abdullayeva utilizes her knowledge of the
 neuroplasticity of the brain and helps her clients to rewire
 their brains, and essentially redesign their entire life.</p>
-            <p className='mt-10 text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Emotional Intelligence plays one of the core roles in her
+            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Emotional Intelligence plays one of the core roles in her
 practice. She focuses on self-awareness and facilitates the
 improvement of communication skills.
 Dr. Abdullayeva’s leadership and public speaking skills
@@ -60,7 +60,7 @@ civilizations, she acquired a more expanded understanding
 of the motivation behind human behavior. This also
 allowed her to study different leadership tactics that were
 implemented as humanity was progressing.</p>
-            <h4 className='mt-10 text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
+            <h4 className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
 practicing different kinds of sports. It offered her an
 opportunity to study the human capacity to endure and
 manage physical and emotional stress. This experience
@@ -81,7 +81,7 @@ project dedicated to reshaping the healthcare culture in
 Azerbaijan. She also is leading an effort of bringing
 organizational and executive coaching to Azerbaijan on
 more expanded bases.</p>
-            <p className='mt-10 text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva works with private clients and companies,
+            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva works with private clients and companies,
 offering coaching in Azerbaijani, English, and Russian
 languages.</p>
            
