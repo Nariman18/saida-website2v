@@ -11,6 +11,7 @@ module.exports = {
       Metropolis: ["Metropolis", "sans-serif"],
       Montserrat: ["Montserrat", "sans-serif"],
       Catamaran: ["Catamaran", "sans-serif"],
+      georgia: ['Georgia', 'serif'],
     },
     extend: {
       animation: {
