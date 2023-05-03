@@ -41,10 +41,6 @@ function aboutExperience() {
           />
         </div>
 
-        <em className="font-Catamaran font-[800] uppercase 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[35px] sm:text-[32px] text-[16px] ml-[1px] mt-3">
-          Explanation About Your Experience
-        </em>
-
         <ExperienceParagraphs />
 
         <ExperienceContact />
