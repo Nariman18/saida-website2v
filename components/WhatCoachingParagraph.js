@@ -2,44 +2,72 @@ import React from 'react'
 
 function WhatCoachingParagraph() {
   return (
-    <div className='flex flex-col p-3'>
+    <div className='flex flex-col p-3 mt-5'>
 
         {/*Chapter I*/}
         <div>
 
-        <h3 className='font-Catamaran font-[700] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-5 2xl:text-[32px] xl:text-[32px] text-[28px]'>Chapter I</h3>
 
-        <h4 className='font-Catamaran font-[600] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-5 2xl:text-[27px] xl:text-[27px] lg:text-[27px] md:text-[24px] text-[19px]'>A convincing marketing translation</h4>
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>A translation of a marketing or commercial text by one of our translators does exactly what it's supposed to do: win over your readers. We don't just translate a text word for word. Marketing translations require a fair amount of liberties to be taken in order to meet the needs and desires of your target audience abroad. While translating marketing texts, our translators may consult you about any cultural differences that need to be taken into account. As far as content goes, your translation will of course be identical to the source text, unless the briefing states otherwise. We are also experienced in providing SEO translations.</p>
+        
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>Coaching is a development process through which coach
+helps an individual (client) to achieve their goal.
+International Coaching Federation defines coaching as
+partnering with clients in a thought-provoking and
+creative process that inspires them to maximize their
+personal and professional potential. The process of
+coaching often unlocks previously untapped sources of
+imagination, productivity and leadership.</p>
        
 
-        <h4 className='font-Catamaran font-[600] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-7 2xl:text-[27px] xl:text-[27px] lg:text-[27px] md:text-[24px] text-[19px]'>A convincing marketing translation</h4>
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>A translation of a marketing or commercial text by one of our translators does exactly what it's supposed to do: win over your readers. We don't just translate a text word for word. Marketing translations require a fair amount of liberties to be taken in order to meet the needs and desires of your target audience abroad. While translating marketing texts, our translators may consult you about any cultural differences that need to be taken into account. As far as content goes, your translation will of course be identical to the source text, unless the briefing states otherwise. We are also experienced in providing SEO translations.</p>
+        
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 font-Catamaran font-[400] text-lg'>Together coach and client explore client’s goals and
+dreams and their capacity to attain those dreams and
+achieve those goals. Coach is focusing on client’s strength
+and helps their clients to overcome the obstacles that
+holding them back from achieving those goals. Coach is
+non-judgmental, supportive and views their client as
+partner.</p>
 
         </div>
 
         {/*Chapter II*/}
-        <div className='mt-2'>
-        <h3 className='font-Catamaran font-[700] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-5 2xl:text-[32px] xl:text-[32px] text-[28px]'>Chapter II</h3>
+        <div className='mt-10'>
+       
 
-        <h4 className='font-Catamaran font-[600] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-5 2xl:text-[27px] xl:text-[27px] lg:text-[27px] md:text-[24px] text-[19px]'>A convincing marketing translation</h4>
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>A translation of a marketing or commercial text by one of our translators does exactly what it's supposed to do: win over your readers. We don't just translate a text word for word. Marketing translations require a fair amount of liberties to be taken in order to meet the needs and desires of your target audience abroad. While translating marketing texts, our translators may consult you about any cultural differences that need to be taken into account. As far as content goes, your translation will of course be identical to the source text, unless the briefing states otherwise. We are also experienced in providing SEO translations.</p>
+        
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>Coach doesn’t give advises. They help their clients by
+asking thought-provoking questions, so clients can find
+answers and solutions themselves. Coach holds their
+clients accountable and keeps record of their progress.</p>
 
 
-        <h4 className='font-Catamaran font-[600] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-7 2xl:text-[27px] xl:text-[27px] lg:text-[27px] md:text-[24px] text-[19px]'>A convincing marketing translation</h4>
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>A translation of a marketing or commercial text by one of our translators does exactly what it's supposed to do: win over your readers. We don't just translate a text word for word. Marketing translations require a fair amount of liberties to be taken in order to meet the needs and desires of your target audience abroad. While translating marketing texts, our translators may consult you about any cultural differences that need to be taken into account. As far as content goes, your translation will of course be identical to the source text, unless the briefing states otherwise. We are also experienced in providing SEO translations.</p>
+        
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0  font-Catamaran font-[400] text-lg'>Coach sometimes helps to reshape their clients’ dreams
+and goals, as sometimes people set goals and dream
+inauthentically, unaware of their true needs and desires.
+Coach’s duty is to help their client to find their truth and
+build their life authentically.
+
+Coach speaks only truth. Coach offers integrity, flexibility
+and trust. Coaching is confidential and requires
+commitment and respect from both parties.</p>
         </div>
 
         {/*Chapter III*/}
-        <div className='mt-2'>
-        <h3 className='font-Catamaran font-[700] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-5 2xl:text-[32px] xl:text-[32px] text-[28px]'>Chapter III</h3>
+        <div className='mt-10'>
+        
 
-        <h4 className='font-Catamaran font-[600] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-5 2xl:text-[27px] xl:text-[27px] lg:text-[27px] md:text-[24px] text-[19px]'>A convincing marketing translation</h4>
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>A translation of a marketing or commercial text by one of our translators does exactly what it's supposed to do: win over your readers. We don't just translate a text word for word. Marketing translations require a fair amount of liberties to be taken in order to meet the needs and desires of your target audience abroad. While translating marketing texts, our translators may consult you about any cultural differences that need to be taken into account. As far as content goes, your translation will of course be identical to the source text, unless the briefing states otherwise. We are also experienced in providing SEO translations.</p>
+        
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>Life Coaching is a form of coaching that helps an
+individual to achieve their personal goals.</p>
 
 
-        <h4 className='font-Catamaran font-[600] 2xl:ml-[182px] xl:ml-[182px] lg:ml-[90px] md:ml-[20px] ml-0 mt-7 2xl:text-[27px] xl:text-[27px] lg:text-[27px] md:text-[24px] text-[19px]'>A convincing marketing translation</h4>
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>A translation of a marketing or commercial text by one of our translators does exactly what it's supposed to do: win over your readers. We don't just translate a text word for word. Marketing translations require a fair amount of liberties to be taken in order to meet the needs and desires of your target audience abroad. While translating marketing texts, our translators may consult you about any cultural differences that need to be taken into account. As far as content goes, your translation will of course be identical to the source text, unless the briefing states otherwise. We are also experienced in providing SEO translations.</p>
+        
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 font-Catamaran font-[400] text-lg'>Executive coaching is a form of coaching that is set in an
+executive environment and helps an individual to learn
+and grow as a leader. Executive coaching helps to enhance
+performance, increase productivity and adjust to upgraded
+levels of demands as the leader grows.</p>
         </div>
     </div>
   )
