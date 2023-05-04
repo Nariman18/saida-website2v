@@ -3,7 +3,7 @@ import React from 'react'
 function ExperienceParagraphs() {
   return (
     <div className='grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3'>
-        <div className='2xl:mt-[90px] xl:mt-[90px] lg:mt-[90px] mt-[100px] 2xl:ml-[130px] xl:ml-[130px] lg:ml-[150px]'>
+        <div className='2xl:mt-[90px] xl:mt-[90px] lg:mt-[90px] mt-[100px] 2xl:ml-[100px] xl:ml-[100px] lg:ml-[40px]'>
             <p className=' text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Saida Abdullayeva is a Baku and New York-based
 Executive and Life Coach and a Medical Doctor.
 She graduated from Azerbaijan Medical University with an
@@ -25,7 +25,7 @@ Emotional Intelligence plays one of the core roles in her practice. She focuses 
 
         </div>
 
-        <div className=' 2xl:mt-[630px] xl:mt-[630px] mt-[100px] lg:mt-[630px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[60px]'>
+        <div className=' 2xl:mt-[630px] xl:mt-[630px] mt-[100px] lg:mt-[630px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[40px]'>
             
             
             <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>
@@ -65,7 +65,7 @@ sensitive coaching prepares her clients for the challenges
 of the global business environment.</p>
         </div>
 
-        <div className='2xl:mt-[1135px] xl:mt-[1135px] lg:mt-[1135px] mt-[100px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[35px]'>
+        <div className='2xl:mt-[940px] xl:mt-[940px] lg:mt-[940px] mt-[100px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[35px]'>
 
         <p className='hidden 2xl:inline-flex xl:inline-flex lg:inline-flex text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
 practicing different kinds of sports. It offered her an
