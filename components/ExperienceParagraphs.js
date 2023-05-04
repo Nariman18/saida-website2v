@@ -15,32 +15,23 @@ and wellbeing is not comprehensive enough. This
 prompted her to take a quest and find a way to expand her
 knowledge and expertise beyond classical medical
 training.</p>
-            <h4 className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Subsequently, Dr. Abdullayeva studied and graduated
+            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Subsequently, Dr. Abdullayeva studied and graduated
 from an ICF (International Coaching Federation)
 accredited coaching certification program in New York
-with excellent results as an Executive and Life Coach.</h4>
+with excellent results as an Executive and Life Coach.</p>
+<p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Dr. Abdullayeva is a unique coach who incorporates her knowledge of the human body and human psychology into her coaching practice. Being a practicing doctor, she has been engaging both with patients and coaching clients, bridging the two central aspects of human wellbeing- physical and emotional health. Dr. Abdullayeva specializes in transformational, organizational, and cross-cultural coaching. Areas of her expertise include emotional intelligence, leadership and public speaking, conflict resolution, and stress management. Dr. Abdullayeva utilizes her knowledge of the neuroplasticity of the brain and helps her clients to rewire their brains, and essentially redesign their entire life.
+
+Emotional Intelligence plays one of the core roles in her practice. She focuses on self-awareness and facilitates the improvement of communication skills.</p>
+
         </div>
 
         <div className=' 2xl:mt-[630px] xl:mt-[630px] mt-[100px] lg:mt-[630px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[60px]'>
             
-            <p className=' text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva is a unique coach who incorporates her
-knowledge of the human body and human psychology into
-her coaching practice. Being a practicing doctor, she has
-been engaging both with patients and coaching clients,
-bridging the two central aspects of human wellbeing-
-physical and emotional health.
-Dr. Abdullayeva specializes in transformational,
-organizational, and cross-cultural coaching. Areas of her
-expertise include emotional intelligence, leadership and
-public speaking, conflict resolution, and stress
-management.
-
-Dr. Abdullayeva utilizes her knowledge of the
-neuroplasticity of the brain and helps her clients to rewire
-their brains, and essentially redesign their entire life.</p>
-            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Emotional Intelligence plays one of the core roles in her
+            
+            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>
+<p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Emotional Intelligence plays one of the core roles in her
 practice. She focuses on self-awareness and facilitates the
-improvement of communication skills.
+improvement of communication skills.</p>
 Dr. Abdullayeva’s leadership and public speaking skills
 expertise stems from her experience with one of the oldest
 public speaking clubs in the US- “Toastmasters”.
@@ -60,7 +51,7 @@ civilizations, she acquired a more expanded understanding
 of the motivation behind human behavior. This also
 allowed her to study different leadership tactics that were
 implemented as humanity was progressing.</p>
-            <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
+            <p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
 practicing different kinds of sports. It offered her an
 opportunity to study the human capacity to endure and
 manage physical and emotional stress. This experience
@@ -75,6 +66,19 @@ of the global business environment.</p>
         </div>
 
         <div className='2xl:mt-[1135px] xl:mt-[1135px] lg:mt-[1135px] mt-[100px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[35px]'>
+
+        <p className='hidden 2xl:inline-flex xl:inline-flex lg:inline-flex text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
+practicing different kinds of sports. It offered her an
+opportunity to study the human capacity to endure and
+manage physical and emotional stress. This experience
+informs Dr. Abdullayeva‘s focus on body awareness and
+body and mind connection while coaching. She offers her
+clients guidance to manage stress, tailored to the needs of
+a fast-paced modern world.
+Living and working between two continents, Dr.
+Abdullayeva has mastered cultural fluidity. Her culturally
+sensitive coaching prepares her clients for the challenges
+of the global business environment.</p>
 
         <p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva’s leadership and public speaking skills
 expertise stems from her experience with one of the oldest
