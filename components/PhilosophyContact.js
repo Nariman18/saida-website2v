@@ -40,7 +40,7 @@ function PhilosophyContact() {
 
 
   return (
-    <div className='flex flex-col items-center 2xl:mt-[2500px] xl:mt-[1690px] mt-28'>
+    <div className='flex flex-col items-center 2xl:mt-[2250px] xl:mt-[1690px] mt-28'>
         <em className='uppercase mb-5 xl:text-[109.07px] lg:text-[109.07px] md:text-[39px] text-[37px] font-Catamaran 2xl:font-[100] xl:font-[100] font-[400]'>
         Let's be in touch.
         </em>

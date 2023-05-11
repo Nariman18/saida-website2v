@@ -29,9 +29,8 @@ Emotional Intelligence plays one of the core roles in her practice. She focuses 
             
             
             <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>
-<p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]  decoration-1 decoration-gray-300'>Emotional Intelligence plays one of the core roles in her
-practice. She focuses on self-awareness and facilitates the
-improvement of communication skills.</p>
+
+
 Dr. Abdullayeva’s leadership and public speaking skills
 expertise stems from her experience with one of the oldest
 public speaking clubs in the US- “Toastmasters”.
@@ -51,18 +50,7 @@ civilizations, she acquired a more expanded understanding
 of the motivation behind human behavior. This also
 allowed her to study different leadership tactics that were
 implemented as humanity was progressing.</p>
-            <p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
-practicing different kinds of sports. It offered her an
-opportunity to study the human capacity to endure and
-manage physical and emotional stress. This experience
-informs Dr. Abdullayeva‘s focus on body awareness and
-body and mind connection while coaching. She offers her
-clients guidance to manage stress, tailored to the needs of
-a fast-paced modern world.
-Living and working between two continents, Dr.
-Abdullayeva has mastered cultural fluidity. Her culturally
-sensitive coaching prepares her clients for the challenges
-of the global business environment.</p>
+           
         </div>
 
         <div className='2xl:mt-[940px] xl:mt-[940px] lg:mt-[940px] mt-[100px] 2xl:ml-[150px] xl:ml-[150px] lg:ml-[35px]'>
@@ -80,25 +68,7 @@ Abdullayeva has mastered cultural fluidity. Her culturally
 sensitive coaching prepares her clients for the challenges
 of the global business environment.</p>
 
-        <p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>Dr. Abdullayeva’s leadership and public speaking skills
-expertise stems from her experience with one of the oldest
-public speaking clubs in the US- “Toastmasters”.
-Established in 1924 the club currently is present in 144
-countries worldwide. She was an active member for a
-while and subsequently was elected as a Vice President of
-“New York Toastmasters”. She led the membership
-program, engaging with members, and helping them to
-improve their communication, public speaking, and
-leadership skills. In this capacity, she received vocal
-training, which she also incorporates into her coaching.
-Additionally, by studying the history of humanity via the
-Metropolitan Museum of Art, Dr. Abdullayeva has gained
-a comprehensive view of the anthropological aspects of
-history. Studying the rise and collapse of different
-civilizations, she acquired a more expanded understanding
-of the motivation behind human behavior. This also
-allowed her to study different leadership tactics that were
-implemented as humanity was progressing.</p>
+        
 
 <p className='md:hidden text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200] decoration-1 decoration-gray-300'>Dr. Abdullayeva is an amateur athlete, who has been
 practicing different kinds of sports. It offered her an

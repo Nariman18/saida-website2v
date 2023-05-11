@@ -9,7 +9,7 @@ function WhatCoachingParagraph() {
 
 
         
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>Coaching is a development process through which coach
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] text-[#848484] px-0 mt-2 font-georgia font-[400] text-lg'>Coaching is a development process through which coach
 helps an individual (client) to achieve their goal.
 International Coaching Federation defines coaching as
 partnering with clients in a thought-provoking and
@@ -20,7 +20,7 @@ imagination, productivity and leadership.</p>
        
 
         
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 font-Catamaran font-[400] text-lg'>Together coach and client explore client’s goals and
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] text-[#848484] px-0 font-georgia font-[400] text-lg'>Together coach and client explore client’s goals and
 dreams and their capacity to attain those dreams and
 achieve those goals. Coach is focusing on client’s strength
 and helps their clients to overcome the obstacles that
@@ -35,14 +35,14 @@ partner.</p>
        
 
         
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>Coach doesn’t give advises. They help their clients by
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] text-[#848484] px-0 mt-2 font-georgia font-[400] text-lg'>Coach doesn’t give advises. They help their clients by
 asking thought-provoking questions, so clients can find
 answers and solutions themselves. Coach holds their
 clients accountable and keeps record of their progress.</p>
 
 
         
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0  font-Catamaran font-[400] text-lg'>Coach sometimes helps to reshape their clients’ dreams
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 text-[#848484] font-georgia font-[400] text-lg'>Coach sometimes helps to reshape their clients’ dreams
 and goals, as sometimes people set goals and dream
 inauthentically, unaware of their true needs and desires.
 Coach’s duty is to help their client to find their truth and
@@ -58,12 +58,12 @@ commitment and respect from both parties.</p>
         
 
         
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 mt-2 font-Catamaran font-[400] text-lg'>Life Coaching is a form of coaching that helps an
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] text-[#848484] px-0 mt-2 font-georgia font-[400] text-lg'>Life Coaching is a form of coaching that helps an
 individual to achieve their personal goals.</p>
 
 
         
-        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] px-0 font-Catamaran font-[400] text-lg'>Executive coaching is a form of coaching that is set in an
+        <p className='2xl:px-[183px] xl:px-[183px] lg:px-[95px] md:px-[20px] text-[#848484] px-0 font-georgia font-[400] text-lg'>Executive coaching is a form of coaching that is set in an
 executive environment and helps an individual to learn
 and grow as a leader. Executive coaching helps to enhance
 performance, increase productivity and adjust to upgraded

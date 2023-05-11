@@ -16,7 +16,8 @@ const MenuItems = ({ active, showMenu }) => {
     }
   
     return (
-      <ul
+       
+            <ul
         className={ 
   
           `flex flex-col fixed z-10 inset-0 xl:hidden lg:hidden items-end bg-black space-y-5 p-4  ${ active ? "-translate-x-0" : "translate-x-full"} transition-all duration-500 ease-in-out`}
@@ -77,8 +78,21 @@ const MenuItems = ({ active, showMenu }) => {
           </Link>
         </li>
       
+
+        <div className='absolute top-[550px] space-x-4'>
+        <button className='uppercase text-white'>
+            Az
+        </button>
+
+        <button className='uppercase text-white'>
+            Ru
+        </button>
+      </div>
        
       </ul>
+
+     
+      
       
     );
   };  
@@ -102,13 +116,13 @@ function AboutExperienceHeader() {
   return (
     <header className='flex items-center justify-between'>
         
-        <div className='flex flex-shrink-0 relative h-[95px] w-[99px] mt-1 2xl:ml-[85px] xl:ml-[85px] lg:ml-[85px] ml-0'>
+        <div className='flex flex-shrink-0 relative h-[95px] w-[99px] mt-1 2xl:ml-[150px] xl:ml-[100px] lg:ml-[40px] ml-0'>
             <Link href='/'>
             <Image src='/image 5.png' fill='true' className='object-contain'/>
             </Link>
         </div>
        
-        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center xl:flex lg:flex hidden 2xl:mr-[180px] xl:mr-[180px] mr-32">
+        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center xl:flex ml-[190px] lg:flex hidden">
            
             <div className="relative">
                 <button
@@ -164,6 +178,16 @@ function AboutExperienceHeader() {
 
         
         </nav>
+
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[200px]'>
+            <button className='uppercase'>
+                  Az          
+            </button>
+
+            <button className='uppercase'>
+                Ru
+            </button>
+        </div>
         
         <div>
         <MenuItems showMenu={showMenu} active={active}/>

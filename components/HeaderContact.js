@@ -13,9 +13,9 @@ function HeaderContact() {
     const [activeAbout, setActiveAbout] = useState(false)
 
   return (
-    <header className='items-center mt-10 justify-center'>
+    <header className='flex items-center mt-10 justify-center'>
 
-<nav className="shrink-0 items-center justify-center xl:inline-flex lg:inline-flex md:inline-flex hidden">
+<nav className="shrink-0 2xl:inline-flex xl:inline-flex lg:inline-flex md:inline-flex hidden 2xl:ml-[460px] xl:ml-[460px] lg:ml-[300px]">
         
 
             <div className="relative">
@@ -56,7 +56,7 @@ function HeaderContact() {
 
             </div>
 
-        <ul className='ml-2 flex space-x-4 flex-shrink-0 font-Catamaran text-[19px] font-[500]'>
+        <ul className='ml-2 flex items-center justify-between space-x-4 flex-shrink-0 font-Catamaran text-[19px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
           What is Coaching
@@ -68,7 +68,23 @@ function HeaderContact() {
           Contact
         </Link>
             </li>
+
+            
+          
+
+
         </ul>
+
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 2xl:ml-[400px] xl:ml-[400px] lg:ml-[250px]'>
+            <button className='uppercase'>
+                  Az          
+            </button>
+
+            <button className='uppercase'>
+                Ru
+            </button>
+        </div>
+        
 </nav>
     
 

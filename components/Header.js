@@ -14,7 +14,7 @@ function Header() {
 
     <header className='flex items-center mt-10 justify-center'>
 
-<nav className="shrink-0 items-center justify-center inline-flex">
+<nav className="shrink-0 items-center justify-center inline-flex 2xl:ml-[460px] xl:ml-[460px] lg:ml-[300px]">
         
 
             <div className="relative">
@@ -68,6 +68,17 @@ function Header() {
         </Link>
             </li>
         </ul>
+
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 2xl:ml-[400px] xl:ml-[400px] lg:ml-[250px]'>
+            <button className='uppercase'>
+                  Az          
+            </button>
+
+            <button className='uppercase'>
+                Ru
+            </button>
+        </div>
+
 </nav>
     
 

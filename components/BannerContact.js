@@ -77,6 +77,15 @@ const MenuItems = ({ active, showMenu }) => {
         </Link>
       </li>
     
+      <div className='absolute top-[550px] space-x-4'>
+        <button className='uppercase text-white'>
+            Az
+        </button>
+
+        <button className='uppercase text-white'>
+            Ru
+        </button>
+      </div>
      
     </ul>
     

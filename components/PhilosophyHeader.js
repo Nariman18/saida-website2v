@@ -77,6 +77,16 @@ const MenuItems = ({ active, showMenu }) => {
           </Link>
         </li>
       
+        
+        <div className='absolute top-[550px] space-x-4'>
+        <button className='uppercase text-white'>
+            Az
+        </button>
+
+        <button className='uppercase text-white'>
+            Ru
+        </button>
+      </div>
        
       </ul>
       
@@ -100,15 +110,15 @@ function PhilosophyHeader() {
  
 
   return (
-    <header className='flex items-center justify-between 2xl:p-20 xl:p-20 lg:p-20 md:p-6 sm:p-0 p-0'>
+    <header className='flex items-center justify-between'>
         
-        <div className='flex-shrink-0 relative h-[95px] w-[99px] mt-1 2xl:hidden xl:hidden lg:hidden inline-flex'>
+        <div className='flex flex-shrink-0 relative h-[95px] w-[99px] mt-1 2xl:ml-[150px] xl:ml-[100px] lg:ml-[40px] ml-0'>
             <Link href='/'>
             <Image src='/image 5.png' fill='true' className='object-contain'/>
             </Link>
         </div>
        
-        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center 2xl:flex xl:flex lg:flex hidden 2xl:mr-[180px] xl:mr-[180px] mr-32">
+        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center xl:flex ml-[190px] lg:flex hidden">
            
             <div className="relative">
                 <button
@@ -157,23 +167,31 @@ function PhilosophyHeader() {
 
             <li>
         <Link href="/contact">
-          Contact Information
+          Contact
         </Link>
             </li>
         </ul>
 
         
         </nav>
+
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[200px]'>
+            <button className='uppercase'>
+                  Az          
+            </button>
+
+            <button className='uppercase'>
+                Ru
+            </button>
+        </div>
         
         <div>
         <MenuItems showMenu={showMenu} active={active}/>
  
-        <div className='relative h-8 w-10 flex xl:hidden lg:hidden md:flex 2xl:ml-[500px] xl:ml-[500px] mr-3'>
+        <div className='relative h-8 w-10 flex xl:hidden lg:hidden 2xl:ml-[500px] xl:ml-[500px] mr-3'>
           <Image onClick={showMenu} src='/svg/menu-outline.svg' alt='Banner' fill='true' className=' object-cover cursor-pointer'/>
         </div>
-       
-
-       <em className='text-[#848484] text-[19px] 2xl:inline-flex xl:inline-flex lg:inline-flex hidden'><span className='text-black font-[600]'>Saida</span>Abdullayeva</em>
+        
         </div>
 
     </header>
