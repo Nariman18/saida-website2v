@@ -77,7 +77,7 @@ const MenuItems = ({ active, showMenu }) => {
         </Link>
       </li>
     
-      <div className='absolute top-[550px] space-x-4'>
+      <div className='absolute top-[450px] space-x-4'>
         <button className='uppercase text-white'>
             Az
         </button>
