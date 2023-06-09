@@ -5,6 +5,10 @@ function PhilosophyBody() {
 
   const { t } = useTranslation('common')
 
+  useEffect(() => {
+    router.push(router.pathname, router.asPath, { locale: 'en' });
+  }, []);
+
   return (
     <div>
 
