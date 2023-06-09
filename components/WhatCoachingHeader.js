@@ -13,6 +13,8 @@ const MenuItems = ({ active, showMenu }) => {
 
     const [activeAbout, setActiveAbout] = useState(false);
 
+    const { t } = useTranslation('common');
+
     
     
     const showAbout = () => {
@@ -104,6 +106,8 @@ const MenuItems = ({ active, showMenu }) => {
 
 function AboutExperienceHeader() {
 
+    const { t } = useTranslation('common');
+
     const [activeAbout, setActiveAbout] = useState(false);
     
     const showAbout = () => {
@@ -134,7 +138,7 @@ function AboutExperienceHeader() {
                     className="inline-flex items-center justify-center h-full  font-Catamaran text-[20px] font-[500]"
                     onClick={showAbout}
                 >
-                    About
+                    {t("headerAbout")}
                     {!activeAbout ? (
                         
                         <img src='/svg/arrow-down.svg' className='relative w-5 h-4'></img>
@@ -152,14 +156,14 @@ function AboutExperienceHeader() {
                             href="/aboutExperience"
                             className="flex flex-shrink-0 flex-row text-sm text-gray-500"
                         >
-                            Education & Experience
+                           {t("aboutEducation")}
                         </Link>
                       
                         <Link
                             href="/philosophy"
                             className="flex flex-shrink-0 text-sm text-gray-500"
                         >
-                            Philosophy
+                            {t("aboutPhilosophy")}
                         </Link>
                     </div>
                 </div> }
@@ -169,13 +173,13 @@ function AboutExperienceHeader() {
         <ul className='ml-2 flex space-x-4 flex-shrink-0 font-Catamaran text-[20px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
-          What is Coaching
+        {t('headerCouch')}
         </Link>
             </li>
 
             <li>
         <Link href="/contact">
-          Contact
+        {t('headerContact')}
         </Link>
             </li>
         </ul>
