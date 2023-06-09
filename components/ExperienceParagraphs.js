@@ -1,9 +1,15 @@
 import React from 'react'
 import useTranslation from 'next-translate/useTranslation';
+import { useRouter } from 'next/router';
 
 function ExperienceParagraphs() {
 
   const { t } = useTranslation('common');
+  const router = useRouter()
+
+  useEffect(() => {
+    router.push(router.pathname, router.asPath, { locale: 'en' });
+  }, []);
   
   return (
     <div className='grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3'>

@@ -1,10 +1,17 @@
 import useTranslation from 'next-translate/useTranslation'
+import { useRouter } from 'next/router';
 import React from 'react'
 
 
 function WhatCoachingParagraph() {
 
         const { t } = useTranslation('common');
+
+        const router = useRouter()
+
+        useEffect(() => {
+          router.push(router.pathname, router.asPath, { locale: 'en' });
+        }, []);
 
   return (
     <div className='flex flex-col p-3 mt-5'>
