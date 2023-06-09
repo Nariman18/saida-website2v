@@ -79,14 +79,14 @@ const MenuItems = ({ active, showMenu }) => {
       
         
         <div className='absolute top-[350px] space-x-4'>
-            <Link href='/aboutExperience' locale='az' className='uppercase text-white'>
+            <Link href='/philosophy' locale='az' className='uppercase text-white'>
                 Az
             </Link>
 
-            <Link href='/aboutExperience' locale='ru' className='uppercase text-white'>
+            <Link href='/philosophy' locale='ru' className='uppercase text-white'>
                 Ru
             </Link>
-            <Link href='/aboutExperience' locale='en' className='uppercase text-white'>
+            <Link href='/philosophy' locale='en' className='uppercase text-white'>
                 En
             </Link>
       </div>
@@ -179,14 +179,14 @@ function PhilosophyHeader() {
         </nav>
 
         <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[200px]'>
-            <Link href='/aboutExperience' locale='az' className='uppercase text-black'>
+            <Link href='/philosophy' locale='az' className='uppercase text-black'>
                 Az
             </Link>
 
-            <Link href='/aboutExperience' locale='ru' className='uppercase text-black'>
+            <Link href='/philosophy' locale='ru' className='uppercase text-black'>
                 Ru
             </Link>
-            <Link href='/aboutExperience' locale='en' className='uppercase text-black'>
+            <Link href='/philosophy' locale='en' className='uppercase text-black'>
                 En
             </Link>
         </div>
