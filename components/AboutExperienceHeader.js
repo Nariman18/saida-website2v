@@ -5,15 +5,22 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React, { useState } from 'react'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { useRouter } from 'next/router';
+import useTranslation from 'next-translate/useTranslation';
+
 
 
 const MenuItems = ({ active, showMenu }) => {
+    const router = useRouter();
 
     const [activeAbout, setActiveAbout] = useState(false);
+    const { t } = useTranslation('common');
     
     const showAbout = () => {
         setActiveAbout(!activeAbout)
     }
+
+    
   
     return (
        
@@ -33,7 +40,7 @@ const MenuItems = ({ active, showMenu }) => {
                       className={`inline-flex items-center justify-center h-full  font-Catamaran text-2xl font-[400]`}
                       onClick={showAbout}
                   >
-                      About
+                      {t("headerAbout")}
                       {!activeAbout ? 
                           
                           <ExpandMoreIcon className='relative w-5 h-7'/>
@@ -50,13 +57,13 @@ const MenuItems = ({ active, showMenu }) => {
                               href="/aboutExperience"
                               className="flex flex-shrink-0 flex-row text-lg text-white font-thin"
                           >
-                              Education & Experience
+                              {t("aboutEducation")}
                           </Link></li>
                           <li><Link
                               href="/philosophy"
                               className="flex flex-shrink-0 text-lg text-white font-thin"
                           >
-                              Philosophy
+                              {t("aboutPhilosophy")}
                           </Link></li>
                       </ul>
                   </div> }
@@ -68,25 +75,28 @@ const MenuItems = ({ active, showMenu }) => {
         </li>
         <li className=' font-Catamaran text-2xl font-[400] text-white'>
           <Link href="/whatIsCouching">
-          What is Coaching
+          {t('headerCouch')}
           </Link>
         </li>
   
         <li className=' font-Catamaran text-2xl font-[400] text-white'>
           <Link href="/contact">
-            Contact
+          {t('headerContact')}
           </Link>
         </li>
       
 
-        <div className='absolute top-[450px] space-x-4'>
-        <button className='uppercase text-white'>
-            Az
-        </button>
+        <div className='absolute top-[350px] space-x-4'>
+            <Link href='/aboutExperience' locale='az' className='uppercase text-white'>
+                Az
+            </Link>
 
-        <button className='uppercase text-white'>
-            Ru
-        </button>
+            <Link href='/aboutExperience' locale='ru' className='uppercase text-white'>
+                Ru
+            </Link>
+            <Link href='/aboutExperience' locale='en' className='uppercase text-white'>
+                En
+            </Link>
       </div>
        
       </ul>
@@ -101,10 +111,13 @@ const MenuItems = ({ active, showMenu }) => {
 function AboutExperienceHeader() {
 
     const [activeAbout, setActiveAbout] = useState(false);
+    const { t } = useTranslation('common');
     
     const showAbout = () => {
         setActiveAbout(!activeAbout)
     }
+
+    
 
     const [active, setActive] = useState(false);
     
@@ -130,7 +143,7 @@ function AboutExperienceHeader() {
                     className="inline-flex items-center justify-center h-full  font-Catamaran text-[20px] font-[500]"
                     onClick={showAbout}
                 >
-                    About
+                    {t("headerAbout")}
                     {!activeAbout ? (
                         
                         <img src='/svg/arrow-down.svg' className='relative w-5 h-4'></img>
@@ -148,14 +161,14 @@ function AboutExperienceHeader() {
                             href="/aboutExperience"
                             className="flex flex-shrink-0 flex-row text-sm text-gray-500"
                         >
-                            Education & Experience
+                            {t("aboutEducation")}
                         </Link>
                       
                         <Link
                             href="/philosophy"
                             className="flex flex-shrink-0 text-sm text-gray-500"
                         >
-                            Philosophy
+                           {t("aboutPhilosophy")}
                         </Link>
                     </div>
                 </div> }
@@ -165,13 +178,13 @@ function AboutExperienceHeader() {
         <ul className='ml-2 flex space-x-4 flex-shrink-0 font-Catamaran text-[20px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
-          What is Coaching
+          {t('headerCouch')}
         </Link>
             </li>
 
             <li>
         <Link href="/contact">
-          Contact
+          {t('headerContact')}
         </Link>
             </li>
         </ul>
@@ -179,14 +192,17 @@ function AboutExperienceHeader() {
         
         </nav>
 
-        <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[200px]'>
-            <button className='uppercase'>
-                  Az          
-            </button>
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[180px]'>
+             <Link href='/aboutExperience' locale='az' className='uppercase'>
+                Az
+            </Link>
 
-            <button className='uppercase'>
+            <Link href='/aboutExperience' locale='ru' className='uppercase'>
                 Ru
-            </button>
+            </Link>
+            <Link href='/aboutExperience' locale='en' className='uppercase'>
+                En
+            </Link>
         </div>
         
         <div>

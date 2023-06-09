@@ -85,6 +85,9 @@ const MenuItems = ({ active, showMenu }) => {
         <button className='uppercase text-white'>
             Ru
         </button>
+        <button className='uppercase text-white'>
+            En
+        </button>
       </div>
      
     </ul>

@@ -75,13 +75,16 @@ function HeaderContact() {
 
         </ul>
 
-        <div className='2xl:flex xl:flex lg:flex hidden gap-2 2xl:ml-[400px] xl:ml-[400px] lg:ml-[250px]'>
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 2xl:ml-[380px] xl:ml-[380px] lg:ml-[230px]'>
             <button className='uppercase'>
                   Az          
             </button>
 
             <button className='uppercase'>
                 Ru
+            </button>
+            <button className='uppercase'>
+                En
             </button>
         </div>
         

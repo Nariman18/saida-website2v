@@ -5,11 +5,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React, { useState } from 'react'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import useTranslation from 'next-translate/useTranslation';
+
 
 
 const MenuItems = ({ active, showMenu }) => {
 
     const [activeAbout, setActiveAbout] = useState(false);
+
+    
     
     const showAbout = () => {
         setActiveAbout(!activeAbout)
@@ -77,14 +81,17 @@ const MenuItems = ({ active, showMenu }) => {
           </Link>
         </li>
       
-        <div className='absolute top-[450px] space-x-4'>
-        <button className='uppercase text-white'>
-            Az
-        </button>
+        <div className='absolute top-[350px] space-x-4'>
+            <Link href='/whatIsCouching' locale='az' className='uppercase text-white'>
+                Az
+            </Link>
 
-        <button className='uppercase text-white'>
-            Ru
-        </button>
+            <Link href='/whatIsCouching' locale='ru' className='uppercase text-white'>
+                Ru
+            </Link>
+            <Link href='/whatIsCouching' locale='en' className='uppercase text-white'>
+                En
+            </Link>
       </div>
        
       </ul>
@@ -174,14 +181,17 @@ function AboutExperienceHeader() {
         
         </nav>
 
-        <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[200px]'>
-            <button className='uppercase'>
-                  Az          
-            </button>
+        <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[180px]'>
+        <Link href='/whatIsCouching' locale='az' className='uppercase text-black'>
+                Az
+            </Link>
 
-            <button className='uppercase'>
+            <Link href='/whatIsCouching' locale='ru' className='uppercase text-black'>
                 Ru
-            </button>
+            </Link>
+            <Link href='/whatIsCouching' locale='en' className='uppercase text-black'>
+                En
+            </Link>
         </div>
         
         <div>

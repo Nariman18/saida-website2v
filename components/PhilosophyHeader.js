@@ -78,14 +78,17 @@ const MenuItems = ({ active, showMenu }) => {
         </li>
       
         
-        <div className='absolute top-[450px] space-x-4'>
-        <button className='uppercase text-white'>
-            Az
-        </button>
+        <div className='absolute top-[350px] space-x-4'>
+            <Link href='/aboutExperience' locale='az' className='uppercase text-white'>
+                Az
+            </Link>
 
-        <button className='uppercase text-white'>
-            Ru
-        </button>
+            <Link href='/aboutExperience' locale='ru' className='uppercase text-white'>
+                Ru
+            </Link>
+            <Link href='/aboutExperience' locale='en' className='uppercase text-white'>
+                En
+            </Link>
       </div>
        
       </ul>
@@ -176,13 +179,16 @@ function PhilosophyHeader() {
         </nav>
 
         <div className='2xl:flex xl:flex lg:flex hidden gap-2 ml-[200px]'>
-            <button className='uppercase'>
-                  Az          
-            </button>
+            <Link href='/aboutExperience' locale='az' className='uppercase text-black'>
+                Az
+            </Link>
 
-            <button className='uppercase'>
+            <Link href='/aboutExperience' locale='ru' className='uppercase text-black'>
                 Ru
-            </button>
+            </Link>
+            <Link href='/aboutExperience' locale='en' className='uppercase text-black'>
+                En
+            </Link>
         </div>
         
         <div>

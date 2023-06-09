@@ -3,18 +3,19 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Link from 'next/link';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import Image from 'next/image'
+import useTranslation from 'next-translate/useTranslation';
 
 function Header() {
 
     const [activeAbout, setActiveAbout] = useState(false);
-
+    const { t } = useTranslation('common');
 
 
   return (
 
-    <header className='flex items-center mt-10 justify-center'>
+    <header className='flex items-center mt-10 justify-center '>
 
-<nav className="shrink-0 items-center justify-center inline-flex 2xl:ml-[460px] xl:ml-[460px] lg:ml-[300px]">
+<nav className="shrink-0 items-center justify-center inline-flex">
         
 
             <div className="relative">
@@ -69,15 +70,7 @@ function Header() {
             </li>
         </ul>
 
-        <div className='2xl:flex xl:flex lg:flex hidden gap-2 2xl:ml-[400px] xl:ml-[400px] lg:ml-[250px]'>
-            <button className='uppercase'>
-                  Az          
-            </button>
-
-            <button className='uppercase'>
-                Ru
-            </button>
-        </div>
+       
 
 </nav>
     
