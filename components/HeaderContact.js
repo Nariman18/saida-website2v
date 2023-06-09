@@ -3,12 +3,15 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Link from 'next/link';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import Image from 'next/image'
+import useTranslation from 'next-translate/useTranslation';
 
 
 
 
 
 function HeaderContact() {
+
+    const { t } = useTranslation('common');
     
     const [activeAbout, setActiveAbout] = useState(false)
 
@@ -24,7 +27,7 @@ function HeaderContact() {
                     className="inline-flex items-center justify-center h-full  font-Catamaran text-[19px] font-[500]"
                     onClick={() => setActiveAbout((prev) => !prev)}
                 >
-                    About
+                    {t("headerAbout")}
                     {!activeAbout ? (
                         
                         <img src='/svg/arrow-down.svg' fill className='relative w-5 h-4'></img>
@@ -42,14 +45,14 @@ function HeaderContact() {
                             href="/aboutExperience"
                             className="flex flex-shrink-0 flex-row text-sm text-gray-500"
                         >
-                            Education & Experience
+                             {t("aboutEducation")}
                         </Link>
                       
                         <Link
                             href="/philosophy"
                             className="flex flex-shrink-0 text-sm text-gray-500"
                         >
-                            Philosophy
+                            {t("aboutPhilosophy")}
                         </Link>
                     </div>
                 </div> }
@@ -59,13 +62,13 @@ function HeaderContact() {
         <ul className='ml-2 flex items-center justify-between space-x-4 flex-shrink-0 font-Catamaran text-[19px] font-[500]'>
             <li>
         <Link href="/whatIsCouching">
-          What is Coaching
+        {t('headerCouch')}
         </Link>
             </li>
 
             <li>
         <Link href="/contact">
-          Contact
+        {t('headerContact')}
         </Link>
             </li>
 
@@ -76,16 +79,16 @@ function HeaderContact() {
         </ul>
 
         <div className='2xl:flex xl:flex lg:flex hidden gap-2 2xl:ml-[380px] xl:ml-[380px] lg:ml-[230px]'>
-            <button className='uppercase'>
-                  Az          
-            </button>
+            <Link href='/contact' locale='az' className='uppercase text-black'>
+                Az
+            </Link>
 
-            <button className='uppercase'>
+            <Link  href='/contact' locale='ru' className='uppercase text-black'>
                 Ru
-            </button>
-            <button className='uppercase'>
+            </Link>
+            <Link  href='/contact' locale='en' className='uppercase text-black'>
                 En
-            </button>
+            </Link>
         </div>
         
 </nav>

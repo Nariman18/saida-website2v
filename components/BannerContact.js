@@ -6,8 +6,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React, { useState } from 'react'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import useTranslation from 'next-translate/useTranslation';
 
 const MenuItems = ({ active, showMenu }) => {
+
+  const { t } = useTranslation('common');
 
   const [activeAbout, setActiveAbout] = useState(false);
   
@@ -32,7 +35,7 @@ const MenuItems = ({ active, showMenu }) => {
                     className={`inline-flex items-center justify-center h-full  font-Catamaran text-2xl font-[400]`}
                     onClick={showAbout}
                 >
-                    About
+                    {t("headerAbout")}
                     {!activeAbout ? 
                         
                         <ExpandMoreIcon className='relative w-5 h-7'/>
@@ -49,13 +52,13 @@ const MenuItems = ({ active, showMenu }) => {
                             href="/aboutExperience"
                             className="flex flex-shrink-0 flex-row text-lg text-white font-thin"
                         >
-                            Education & Experience
+                            {t("aboutEducation")}
                         </Link></li>
                         <li><Link
                             href="/philosophy"
                             className="flex flex-shrink-0 text-lg text-white font-thin"
                         >
-                            Philosophy
+                            {t("aboutPhilosophy")}
                         </Link></li>
                     </ul>
                 </div> }
@@ -67,29 +70,29 @@ const MenuItems = ({ active, showMenu }) => {
       </li>
       <li className=' font-Catamaran text-2xl font-[400] text-white'>
         <Link href="/whatIsCouching">
-        What is Coaching
+        {t('headerCouch')}
         </Link>
       </li>
 
       <li className=' font-Catamaran text-2xl font-[400] text-white'>
         <Link href="/contact">
-          Contact
+        {t('headerContact')}
         </Link>
       </li>
     
       <div className='absolute top-[450px] space-x-4'>
-        <button className='uppercase text-white'>
-            Az
-        </button>
+            <Link onClick={showMenu} href='/contact' locale='az' className='uppercase text-white'>
+                Az
+            </Link>
 
-        <button className='uppercase text-white'>
-            Ru
-        </button>
-        <button className='uppercase text-white'>
-            En
-        </button>
+            <Link onClick={showMenu} href='/contact' locale='ru' className='uppercase text-white'>
+                Ru
+            </Link>
+            <Link onClick={showMenu} href='/contact' locale='en' className='uppercase text-white'>
+                En
+            </Link>
       </div>
-     
+     text-white
     </ul>
     
   );

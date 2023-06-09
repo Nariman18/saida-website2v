@@ -36,7 +36,7 @@ const MenuItems = ({ active, showMenu }) => {
                       className={`inline-flex items-center justify-center h-full  font-Catamaran text-2xl font-[400]`}
                       onClick={showAbout}
                   >
-                      About
+                       {t("headerAbout")}
                       {!activeAbout ? 
                           
                           <ExpandMoreIcon className='relative w-5 h-7'/>
@@ -50,16 +50,18 @@ const MenuItems = ({ active, showMenu }) => {
                   {activeAbout && <div className="relative z-10 origin-top-right transition duration-500 ease-in-out"> 
                       <ul className="flex flex-col mt-2 space-y-2 transition duration-500 ease-out">
                           <li><Link
+                              onClick={showMenu}
                               href="/aboutExperience"
                               className="flex flex-shrink-0 flex-row text-lg text-white font-thin"
                           >
-                              Education & Experience
+                              {t("aboutEducation")}
                           </Link></li>
                           <li><Link
+                              onClick={showMenu}
                               href="/philosophy"
                               className="flex flex-shrink-0 text-lg text-white font-thin"
                           >
-                              Philosophy
+                              {t("aboutPhilosophy")}
                           </Link></li>
                       </ul>
                   </div> }
@@ -70,26 +72,26 @@ const MenuItems = ({ active, showMenu }) => {
          
         </li>
         <li className=' font-Catamaran text-2xl font-[400] text-white'>
-          <Link href="/whatIsCouching">
-          What is Coaching
+          <Link onClick={showMenu} href="/whatIsCouching">
+          {t('headerCouch')}
           </Link>
         </li>
   
         <li className=' font-Catamaran text-2xl font-[400] text-white'>
-          <Link href="/contact">
-            Contact
+          <Link onClick={showMenu} href="/contact">
+          {t('headerContact')}
           </Link>
         </li>
       
         <div className='absolute top-[350px] space-x-4'>
-            <Link href='/whatIsCouching' locale='az' className='uppercase text-white'>
+            <Link onClick={showMenu} href='/whatIsCouching' locale='az' className='uppercase text-white'>
                 Az
             </Link>
 
-            <Link href='/whatIsCouching' locale='ru' className='uppercase text-white'>
+            <Link onClick={showMenu} href='/whatIsCouching' locale='ru' className='uppercase text-white'>
                 Ru
             </Link>
-            <Link href='/whatIsCouching' locale='en' className='uppercase text-white'>
+            <Link onClick={showMenu} href='/whatIsCouching' locale='en' className='uppercase text-white'>
                 En
             </Link>
       </div>
