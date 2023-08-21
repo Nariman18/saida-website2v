@@ -27,7 +27,8 @@ function ExperienceParagraphs() {
             <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>
 
 
-            {t('secDescPar')}</p>
+            {t('secDescPar')}
+            </p>
            
         </div>
 
