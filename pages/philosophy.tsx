@@ -17,6 +17,10 @@ function philosophy() {
       <Head>
         <title>Вход</title>
         <link rel="icon" href="/image 2.png" />
+        <meta
+          name="description"
+          content="Saida Abdullayeva's Portfolio Website..."
+        />
       </Head>
 
       <PhilosophyHeader />
