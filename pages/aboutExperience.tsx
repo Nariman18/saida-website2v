@@ -17,7 +17,7 @@ function aboutExperience() {
     <div className="flex flex-col flex-shrink-0">
       <Head>
         <title>Вход</title>
-        <link rel="icon" href="/img/32.png" />
+        <link rel="icon" href="/image 2.png" />
       </Head>
 
       <AboutExperienceHeader />

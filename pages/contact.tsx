@@ -9,7 +9,7 @@ function contact() {
     <div>
       <Head>
         <title>Вход</title>
-        <link rel="icon" href="/img/32.png" />
+        <link rel="icon" href="/image 2.png" />
       </Head>
 
       <BannerContact />
