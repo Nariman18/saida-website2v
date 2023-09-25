@@ -123,7 +123,7 @@ function PhilosophyHeader() {
             </Link>
         </div>
        
-        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center xl:flex ml-[190px] lg:flex hidden">
+        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center 2xl:ml-[210px] xl:flex xl:ml-[250px] ml-[190px] lg:flex hidden">
            
             <div className="relative">
                 <button
