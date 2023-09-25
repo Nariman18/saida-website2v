@@ -40,7 +40,7 @@ function ExperienceContact() {
 
 
   return (
-    <div className='flex flex-col items-center 2xl:mt-52 xl:mt-52 mt-20'>
+    <div className='flex flex-col items-center 2xl:mt-52 xl:mt-20 mt-20'>
         <em className='uppercase mb-5 xl:text-[109.07px] lg:text-[109.07px] md:text-[39px] text-[37px] font-Catamaran 2xl:font-[100] xl:font-[100] font-[400]'>
         Let's be in touch.
         </em>
