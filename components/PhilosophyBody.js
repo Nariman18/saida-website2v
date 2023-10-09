@@ -17,7 +17,7 @@ function PhilosophyBody() {
 
     <div className='relative 2xl:flex-none xl:flex-none 2xl:items-start xl:items-start flex flex-col items-center 2xl:mt-0 xl:mt-0'>
  
-    <img src='/Rectangle 6.png' alt='Banner' className='2xl:absolute xl:absolute relative 2xl:w-[853px] xl:w-[853px] lg:w-[760px] md:w-[653px] sm:w-[653px] w-[310px] 2xl:h-[657px] xl:h-[657px] lg:h-[657px] md:h-[550px] h-[300px] 2xl:left-[345px] xl:left-[345px] 2xl:top-[10px] xl:top-[10px] object-contain'/>  
+    <img src='/Rectangle 6.png' alt='Banner' className='2xl:absolute xl:absolute relative 2xl:w-[853px] xl:w-[853px] lg:w-[760px] md:w-[653px] sm:w-[653px] w-[310px] 2xl:h-[657px] xl:h-[657px] lg:h-[657px] md:h-[550px] h-[300px] min-[1537px]:left-[490px] 2xl:left-[345px] xl:left-[345px] 2xl:top-[10px] xl:top-[10px] object-contain'/>  
     
             <div className='2xl:absolute xl:absolute relative 2xl:top-[750px] xl:top-[750px] 2xl:left-[200px] xl:left-[200px] 2xl:mt-0 xl:mt-0 mt-20'>
             <p className='text-[#848484] text-left w-[310px] text-[16px] font-georgia font-[200]'>{t('philosFirParFirText')}</p>

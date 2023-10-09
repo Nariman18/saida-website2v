@@ -130,7 +130,7 @@ function AboutExperienceHeader() {
             </Link>
         </div>
        
-        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center xl:flex ml-[190px] lg:flex hidden">
+        <nav className="xl:flex-shrink-0 lg:flex-shrink-0 items-center justify-center xl:flex min-[1537px]:ml-[270px] ml-[190px] lg:flex hidden">
            
             <div className="relative">
                 <button
