@@ -16,7 +16,7 @@ function whatIsCouching() {
   return (
     <div>
       <Head>
-        <title>Вход</title>
+        <title>What is Couching</title>
         <link rel="icon" href="/image 2.png" />
         <meta
           name="description"

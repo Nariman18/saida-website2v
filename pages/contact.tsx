@@ -8,7 +8,7 @@ function contact() {
   return (
     <div>
       <Head>
-        <title>Вход</title>
+        <title>Contact</title>
         <link rel="icon" href="/image 2.png" />
         <meta
           name="description"

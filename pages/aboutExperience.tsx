@@ -16,7 +16,7 @@ function aboutExperience() {
   return (
     <div className="flex flex-col flex-shrink-0">
       <Head>
-        <title>Вход</title>
+        <title>About Experience</title>
         <link rel="icon" href="/image 2.png" />
         <meta
           name="description"
